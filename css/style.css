@@ -1,0 +1,201 @@
+
+
+body{
+    margin: 0;
+    background-color: #fff;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 40px;
+    height: 100vh;
+    /* display: grid; */
+    /* grid-template: 
+    "col-md-auto container-lg" 100%
+    "col-md-auto about" 100%
+    "projects projects" 100%
+    / 30% 70% */
+}
+
+
+.col-md-auto{
+    background-color: #1a75ff;
+    margin: 0;
+
+}
+
+#landing{
+    background: url('https://i.imgur.com/xpO6nxW.png');
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+#landingMockup{
+    position: absolute;
+
+    top: 240px;
+    left: 600px;
+    width: 530px;
+}
+
+.navbar-brand{
+   padding: 10px;
+}
+
+#brandlogo{
+    
+    width: 120px;
+    padding: 30px;
+}
+.navbar{
+    padding: 2rem 4rem;
+    height: 60px;
+    margin-bottom: 15px;
+    /* background-color: #999999; */
+}
+
+.navbar .navbar-nav a{
+    color: #1a75ff !important;
+    font-size: 24px !important;
+    margin: 8px;
+    font-family: 'Changa', sans-serif;
+}
+
+.navbar .navbar-nav a:hover{
+    color: #ffd000 !important;
+    border-bottom: 3px solid #ffd000;
+}
+
+
+.titleBox{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 13%;
+    left: 8%;
+   
+    width: 470px;
+    height: 470px;
+    /* background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 10px 30px rgba(57,56, 61, 0.205); */
+}
+
+h2{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 48px;
+    color: navy;
+    text-shadow:  rgba(57,56, 61, 0.205);
+    font-family: 'Changa', sans-serif;
+}
+
+h4{
+   font-size:  34px;
+   color: #1a75ff;
+   font-family: 'Roboto';
+}
+
+p{
+    font-family: 'Roboto';
+    font-size: 22px;
+    text-align: center;
+    margin: 15px;
+}
+
+.icons{
+    width: 170px;
+    padding: 30px;
+}
+
+.container-xl{
+    text-align: center;
+}
+
+.mySkills{
+    margin: 20px 20px;
+    text-align: center;
+    padding: 10px;
+     box-shadow: 0px 10px 30px rgba(57,56, 61, 0.205);
+}
+
+.about{
+    
+    background-color: #fff;
+    margin-top: 100px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(57,56, 61, 0.205);
+}
+
+.projects{
+    margin-top: 30px;
+    text-align: center;
+    
+
+
+    
+}
+
+.project-container{
+   text-align: center;
+   
+}
+
+.card{
+    border: 2px solid #1a75ff;
+    margin: 40px;
+    box-shadow: 0px 10px 30px rgba(57,56, 61, 0.205);
+}
+
+.card-title{
+    font-family: 'changa';
+    color: #1a75ff;
+}
+
+.card-text{
+    font-family: 'roboto';
+    color: #1a75ff;
+    font-size: 18px;
+}
+
+.contact{
+    text-align: center;
+}
+
+
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+
+#project1{
+   
+    
+    width: 300px !important;
+}
+
+
+#project2{
+    width: 300px !important;
+}
+
+#project3{
+    width: 300px;
+}
+
+#project-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 410px;
+  
+    margin: 12px;
+    /* background-color: #ddd !important; */
+}
+
